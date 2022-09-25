@@ -1,20 +1,22 @@
 # ontools
-Fork from RW3DM - Rhino Extensions for NURBS-Python (geomdl)
+
 [![Appveyor Status](https://ci.appveyor.com/api/projects/status/gdawoy927oeex1dj?svg=true)](https://ci.appveyor.com/project/orbingol/rw3dm) 
 [![Azure Status](https://dev.azure.com/quantumworx/rw3dm/_apis/build/status/orbingol.rw3dm?branchName=master)](https://dev.azure.com/quantumworx/rw3dm/_build/latest?definitionId=1&branchName=master)
 
-RW3DM project provides executables for exporting and importing OpenNURBS/Rhino .3DM files in JSON format.
+## Fork from RW3DM -Rhino Extensions for NURBS-Python (geomdl)
+ontools
+[RW3DM](https://github.com/orbingol/rw3dm) project provides executables for exporting and importing OpenNURBS/Rhino .3DM files in JSON format.
 It utilizes [OpenNURBS](https://github.com/mcneel/opennurbs) library for reading and writing .3DM files
 and [JsonCpp](https://github.com/open-source-parsers/jsoncpp) for importing and exporting
 [geomdl](https://github.com/orbingol/NURBS-Python) geometry data.
 
-## Installation and Updating RW3DM
+## Installation and Updating ontools
 
-### Downloading RW3DM
+### Downloading ontools
 
 You can download the precompiled Windows 64-bit binaries under [Actions](https://github.com/orbingol/rw3dm/actions) tab.
 
-### Compiling RW3DM
+### Compiling ontools
 
 If you prefer to compile the binaries on your own, you can follow the following list as a reference:
 
@@ -33,7 +35,7 @@ If you prefer to compile the binaries on your own, you can follow the following 
 8. Go to the install directory, e.g. `cd install` or the one you configured with CMake during step 6
 9. You will find the executables inside the install directory
 
-### Updating RW3DM
+### Updating ontools
 
 If you prefer to update the compiled binaries on your own, you can follow the following list as a reference:
 
@@ -54,7 +56,11 @@ If you prefer to update the compiled binaries on your own, you can follow the fo
 * It is tested with gcc 7.3 and it should be compatible with any gcc version supporting C++17
 * Please remember to install the compiler packages for your Linux distribution
 
-## Using RW3DM
+#### For Macos
+
+* Tested with appleclang 14.0 (arm64, M1). Sucsess with ninja (Clion bundled) and with Xcode command line tools.
+
+## Using ontools
 
 ### Reading .3DM files
 
